@@ -1,7 +1,9 @@
+import img from '../imgs/logo.mrc.png'
+
 const Cards = () => {
     return(
         <div>
-            <img src="../imgs/logo.mrc.png"/>
+            <img src={img}/>
         </div>
     )
 }
